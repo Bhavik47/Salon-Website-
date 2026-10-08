@@ -7,14 +7,14 @@ A fast, dependency-free single-page website for **Saloniaz**: plain HTML, CSS an
 - **One booking panel for the whole site.** Every "Book" button (header, hero, service rows, offers, packages, artists, studios, gallery) opens the same panel. Guests pick one or more services (browsing by category with photos), a studio, a day from the next two weeks, a time slot, an optional artist and offer code, and their name. Only the final **Book on WhatsApp** button opens WhatsApp, with all of that pre-filled in one message. Buttons can pre-select things: booking from a package selects that package, from an offer fills in its code, from an artist picks that artist. Past time slots for today are disabled automatically. Nothing is stored on the site.
 - **Click to call** in the header, hero, studio cards, footer and the mobile action bar.
 - **Live "Open now / Closed" status** worked out from India time.
-- **Services menu** with 7 categories and tabs. Shows durations, not prices, with a "Get a quote" link in each category.
+- **Services menu**: 7 photo categories. Each treatment shows its duration, not a price, and has its own Book button.
 - **Offers** shown as tickets with copy-to-clipboard codes. The "valid until" date updates every month on its own.
-- **Packages**: three bridal tiers, plus rituals and memberships, each with a "Request a quote" link.
+- **Packages**: three bridal tiers, plus rituals and memberships, each with its own photo and a booking button.
 - **Our Work** gallery with filters and a lightbox (keyboard and swipe), plus a draggable before/after slider.
 - **Google reviews**: rating summary, rating bars, a review carousel, and "Read all on Google" and "Write a review" links.
-- **Studios**: three NCR locations with a switcher, an embedded Google Map, a directions link, and per-studio call and WhatsApp buttons.
+- **Studios**: three NCR locations with a switcher, an embedded Google Map, a directions link, and per-studio Book and Call buttons.
 - FAQ, Instagram strip, artist profiles, and a hygiene and promises section.
-- On mobile, a sticky bar with **Call · Book on WhatsApp · Directions**. On desktop, a floating WhatsApp button.
+- On mobile, a sticky bar with **Call · Book now · Directions**. On desktop, a floating Book button.
 - SEO: meta and Open Graph tags, plus `BeautySalon` structured data (JSON-LD).
 - Accessibility: keyboard support, focus styles, ARIA tabs, and support for reduced-motion settings.
 
