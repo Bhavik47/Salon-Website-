@@ -5,6 +5,8 @@
 
 const SALON = {
   name: 'Saloniaz',
+  // Set to false once real reviews & contact details are in (also remove the robots noindex tag in index.html)
+  preview: true,
   // WhatsApp number: country code + number, digits only (no +, spaces or dashes)
   whatsapp: '919810000000',
   phone: '+919810000000',
@@ -193,6 +195,7 @@ function hydrateStatic() {
   $$('[data-google-reviews]').forEach((a) => (a.href = SALON.googleReviewsUrl));
   $$('[data-google-write]').forEach((a) => (a.href = SALON.googleWriteReviewUrl));
   $$('[data-year]').forEach((el) => (el.textContent = new Date().getFullYear()));
+  $$('[data-preview-note]').forEach((el) => (el.hidden = !SALON.preview));
 }
 
 /* ---------- open / closed status (India time) ---------- */
